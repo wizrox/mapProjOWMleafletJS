@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Sample project for using Openweathermaps and leaflet in a React Application.
+The objective of this project is to create a React Application that can display and interactive map to show brief weather forecast. The following tools are needed to be downloaded and installed before creating this application.
+- React (npm tools installed)
+- Openweathermap API key
+- leaflet.js packages (to bundle with the app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Disclaimer & Courtesy:
+I don't own any rights for this code , it's just an example for using "openweathermaps" with react.All the coding are
+snippets from the above mentioned git/tutorials/urls. any damage or loss by using this code will not cover under any
+liability by the developer. please analyze the risk associated with this code before using it in your projects.
 
-## Available Scripts
+## Steps to be followed to setup the environment for creating Application (Ubuntu mate)
+- Installing npm tools for creating a React App using commandlines/terminal as follows:
+ - $ sudo apt install npm
+- now create an empty/default React Application using npx command as follows:
+ - $ npx create-react-app my-app
+ - now you need to get an API key to use openweathermap.org (create free account) from openweathermap.org
+ - One more thing required for this project is "leaflet.js" packages (the one included in this project is downloaded from git tutorial mentioned in the link)
+### Application features ![5](https://user-images.githubusercontent.com/54668143/134902236-41059b89-c20a-492f-a0b3-3960b3aad520.png)
 
-In the project directory, you can run:
+- This is very simple web application that overlays weather layers on a map based on geolocation initialized with it. Using openweathermap API to create overlayers that will dispaly with the map. this all uses leaflet.js functions to create and display the map in the browser. the following are some of the screenshots from the browser.
 
-### `npm start`
+![map](https://user-images.githubusercontent.com/54668143/134902160-c7e0f755-09fb-464c-b890-ab79636ac00b.png)
+![cloud](https://user-images.githubusercontent.com/54668143/134902223-c96ff848-2572-453d-af5d-1885ffa84c1a.png)
+![temperature](https://user-images.githubusercontent.com/54668143/134902229-16a6bd8b-38d2-4cb9-b33a-a568567fd658.png)
+![snow](https://user-images.githubusercontent.com/54668143/134902241-9088998f-b219-4fc7-a7b6-e18bc083f508.png)
+![cities](https://user-images.githubusercontent.com/54668143/134902265-7e6e03ca-5e9e-4dcc-b6a8-d8bc0d188b5b.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Git/Resources/Knowledge-base/Tutorials:
+- ### openweathermap  https://openweathermap.org/api
+- ### React Development https://create-react-app.dev/docs/getting-started/
+- https://developer.here.com/tutorials/react/
+- https://rapidapi.com/blog/how-to-use-an-api-with-react/
+- https://jasonwatmore.com/post/2020/01/27/react-fetch-http-get-request-examples
+- ### Git https://github.com/buche/leaflet-openweathermap
+- https://github.com/google/maps-for-work-samples
+- https://github.com/jdretz/rapidapi-react-api-call
