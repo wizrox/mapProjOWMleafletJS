@@ -6,8 +6,7 @@ The objective of this project is to create a React Application that can display 
 
 # Disclaimer & Courtesy:
 I don't own any rights for this code , it's just an example for using "openweathermaps" with react.All the coding are
-snippets from the above mentioned git/tutorials/urls. any damage or loss by using this code will not cover under any
-liability by the developer. please analyze the risk associated with this code before using it in your projects.
+snippets from the links and resources mentioned in git/tutorials/urls section below.please analyze the risk associated with this code before using it in your projects.
 
 ## Steps to be followed to setup the environment for creating Application (Ubuntu mate)
 - Installing npm tools for creating a React App using commandlines/terminal as follows:
