@@ -33,7 +33,7 @@ export class DisplayMapClass extends React.Component {
         
         
         var owm_API_key = 'b4f215ca39fba72abf5e8b413859f1dd'; 
-                        //'^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^' please user your own api key by registring free at "https://openweathermap.org/api"
+                        //'^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^' please use your own api key by registring free at "https://openweathermap.org/api"
         
         const L = window.L;
         
