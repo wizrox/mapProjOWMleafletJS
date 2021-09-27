@@ -32,7 +32,9 @@ export class DisplayMapClass extends React.Component {
     async componentDidMount() {
         
         
-        var owm_API_key = 'b4f215ca39fba72abf5e8b413859f1dd';
+        var owm_API_key = 'b4f215ca39fba72abf5e8b413859f1dd'; 
+                        //'^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^' please user your own api key by registring free at "https://openweathermap.org/api"
+        
         const L = window.L;
         
         var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
