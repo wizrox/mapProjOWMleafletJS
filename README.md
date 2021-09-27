@@ -23,7 +23,7 @@ snippets from the links and resources mentioned in git/tutorials/urls section be
 ![cloud](https://user-images.githubusercontent.com/54668143/134902223-c96ff848-2572-453d-af5d-1885ffa84c1a.png)
 ![temperature](https://user-images.githubusercontent.com/54668143/134902229-16a6bd8b-38d2-4cb9-b33a-a568567fd658.png)
 ![snow](https://user-images.githubusercontent.com/54668143/134902241-9088998f-b219-4fc7-a7b6-e18bc083f508.png)
-![cities](https://user-images.githubusercontent.com/54668143/134902265-7e6e03ca-5e9e-4dcc-b6a8-d8bc0d188b5b.png)
+
 
 ## Git/Resources/Knowledge-base/Tutorials:
 - ### openweathermap  https://openweathermap.org/api
