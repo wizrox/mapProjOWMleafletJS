@@ -4,10 +4,6 @@ The objective of this project is to create a React Application that can display 
 - Openweathermap API key
 - leaflet.js packages (to bundle with the app)
 
-# Disclaimer & Courtesy:
-I don't own any rights for this code , it's just an example for using "openweathermaps" with react.All the coding are
-snippets from the links and resources mentioned in git/tutorials/urls section below.please analyze the risk associated with this code before using it in your projects.
-
 ## Steps to be followed to setup the environment for creating Application (Ubuntu mate)
 - Installing npm tools for creating a React App using commandlines/terminal as follows:
  - $ sudo apt install npm
@@ -34,3 +30,7 @@ snippets from the links and resources mentioned in git/tutorials/urls section be
 - ### Git https://github.com/buche/leaflet-openweathermap
 - https://github.com/google/maps-for-work-samples
 - https://github.com/jdretz/rapidapi-react-api-call
+
+# Disclaimer & Courtesy:
+This code/project is refrenced from above mentioned links, it's just an example for using "openweathermaps" with react. Most of the coding are
+snippets from the links and resources mentioned in git/tutorials/urls section below. Please analyze the risk associated with this code before using it in your projects.
